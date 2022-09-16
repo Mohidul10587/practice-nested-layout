@@ -3,7 +3,9 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return <Layout >
-    <Component {...pageProps} />
+   <div className='min-h-screen'>
+   <Component {...pageProps} />
+   </div>
   </Layout>
 }
 
